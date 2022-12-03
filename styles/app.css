@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+
+@layer base {
+  .text-h1 {
+    @apply text-4xl;
+  }
+
+  .text-h2 {
+    @apply text-3xl;
+  }
+
+  .text-h3 {
+    @apply text-2xl;
+  }
+
+  .text-h4 {
+    @apply text-xl;
+  }
+
+  .text-h5 {
+    @apply text-lg;
+  }
+}
