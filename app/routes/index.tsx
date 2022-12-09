@@ -12,7 +12,6 @@ export const action: ActionFunction = async ({ request }) => {
   const prompt = formData.get("prompt");
 
   const basePromptPrefix = "Rewrite this resume job description to be more professional: ";
-  console.log(`API: ${basePromptPrefix}${prompt}`);
 
   const baseCompletion = await openai.createCompletion({
     model: "text-davinci-003",
